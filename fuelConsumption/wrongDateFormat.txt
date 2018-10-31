@@ -1,0 +1,9 @@
+[
+    {
+        "fuelType": "D",
+        "pricePerLtr": 11.2,
+        "fuelConsumption": 15.5,
+        "date": "2018-15-10",
+        "driverId": "1"
+    }
+]

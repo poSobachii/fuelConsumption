@@ -1,0 +1,4 @@
+From java:8
+EXPOSE 8080
+ADD /target/fuelConsumption.jar fuelConsumption.jar
+ENTRYPOINT ["java","-jar","fuelConsumption.jar"]
