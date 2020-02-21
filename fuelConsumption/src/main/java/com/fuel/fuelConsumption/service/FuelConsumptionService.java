@@ -16,6 +16,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static com.fuel.fuelConsumption.mapper.FuelConsumptionMapper.toEntity;
+import com.fuel.fuelConsumption.rest.Utility;
 
 @Service
 public class FuelConsumptionService {
@@ -25,8 +26,8 @@ public class FuelConsumptionService {
 
     public void createFuelConsumptionRequestAndSave(List<FuelRegistrationRequest> registrationRequest) {
         for (FuelRegistrationRequest entity : registrationRequest) {
-            FuelConsumptionRequestEntity fuelConsumptionRequestEntity = toEntity(entity);
-            fuelRepository.save(fuelConsumptionRequestEntity);
+            FuelConsumptionRequestEntity fuelConsumptionRequestEntits = toEntity(entity);
+            fuelRepository.save(fuelConsumptionRequestEntits);
         }
     }
 

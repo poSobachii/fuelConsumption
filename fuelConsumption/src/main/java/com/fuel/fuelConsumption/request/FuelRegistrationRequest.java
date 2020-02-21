@@ -2,6 +2,7 @@ package com.fuel.fuelConsumption.request;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fuel.fuelConsumption.rest.Utility;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class FuelRegistrationRequest {

@@ -1,18 +1,19 @@
 package com.fuel.fuelConsumption.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fuel.fuelConsumption.rest.Utility;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-@Entity(name = "FuelEntry")
+@Entity(name = "FuelEntryxx")
 @Table(name = "fuelentry")
 public class FuelConsumptionRequestEntity implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @JsonIgnore
     private long id;
 

@@ -8,6 +8,7 @@ import com.fuel.fuelConsumption.request.FuelRegistrationRequest;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import com.fuel.fuelConsumption.rest.Utility;
 
 public class FuelConsumptionMapper {
 

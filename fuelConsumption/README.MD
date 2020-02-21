@@ -1,4 +1,4 @@
-Fuel consumption service is spring boot application and it is running on 8082 port. Following are the some info about services:
+Fuel consumption service is spring boot application and it is running on 8080 port. Following are the some info about services:
 - Java 8
 - RestFul API with JSON payload response
 - Spring boot and framework
