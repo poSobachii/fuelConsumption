@@ -1,0 +1,59 @@
+[
+    {
+        "fuelType": "97",
+        "pricePerLtr": 10.5,
+        "fuelConsumption": 15.5,
+        "date": "2018-01-10",
+        "driverId": "1"
+    },
+	
+   {
+
+        "fuelType": "D",
+        "pricePerLtr": 13.1,
+        "fuelConsumption": 15.5,
+        "date": "2018-01-21",
+        "driverId": "1"
+    },
+	  {
+
+        "fuelType": "D",
+        "pricePerLtr": 13.1,
+        "fuelConsumption": 15.5,
+        "date": "2018-12-11",
+        "driverId": "1"
+    },
+	
+    {
+        "fuelType": "97",
+        "pricePerLtr": 7.2,
+        "fuelConsumption": 6.8,
+        "date": "2018-10-02",
+        "driverId": "2"
+    },
+
+    {
+
+        "fuelType": "98",
+        "pricePerLtr": 10.9,
+        "fuelConsumption": 13.3,
+        "date": "2018-01-15",
+        "driverId": "2"
+    },
+    {
+
+        "fuelType": "98",
+        "pricePerLtr": 25.8,
+        "fuelConsumption": 13,
+        "date": "2018-02-26",
+        "driverId": "2"
+    },
+    {
+
+        "fuelType": "D",
+        "pricePerLtr": 10.7,
+        "fuelConsumption": 14.7,
+        "date": "2018-01-19",
+        "driverId": "2"
+    }
+]
